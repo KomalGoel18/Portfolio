@@ -98,12 +98,6 @@ export default function Hero() {
                 >
                   <Mail className="w-5 h-5 text-gray-300" />
                 </a>
-                <a
-  href="tel:+919517843063"
-  className="w-10 h-10 bg-gray-800/50 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors"
->
-  <Phone className="w-5 h-5 text-gray-300" />
-</a>
               </div>
             </motion.div>
           </motion.div>

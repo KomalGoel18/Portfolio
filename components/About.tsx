@@ -28,10 +28,7 @@ export default function About() {
 </p>
 
 <p>
-  I enjoy building efficient and scalable software solutions, with hands-on experience in
-  full-stack web development, AI-driven projects, and application development. My work focuses on writing clean,
-  maintainable code and designing systems that balance performance, reliability, and
-  usability.
+  I enjoy building efficient and scalable software solutions, with hands-on experience in full-stack web development, and AI-driven projects. My work focuses on writing clean, maintainable code and designing systems that balance performance, reliability, and usability.
 </p>
           </div>
         </motion.div>

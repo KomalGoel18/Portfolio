@@ -35,13 +35,6 @@ export default function Footer() {
               <Mail className="w-5 h-5" />
               <span className="text-sm">Mail</span>
             </a>
-            <a
-              href="tel:+919517843063"
-              className="text-gray-400 hover:text-white transition-colors flex items-center gap-2"
-            >
-              <Phone className="w-5 h-5" />
-              <span className="text-sm">Phone</span>
-            </a>
           </div>
 
           <p className="text-gray-500 text-sm">
