@@ -25,7 +25,7 @@ export default function Hero() {
               className="inline-block"
             >
               <span className="text-blue-500 text-sm font-medium bg-blue-500/10 px-4 py-2 rounded-full border border-blue-500/20">
-                Actively Seeking Internships & Job Opportunities
+                Actively Seeking Job Opportunities
               </span>
             </motion.div>
 
