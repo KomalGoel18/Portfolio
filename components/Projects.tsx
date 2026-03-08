@@ -10,6 +10,19 @@ export default function Projects() {
 
   const projects = [
     {
+      title: 'SmartAssist Chatbot',
+      description:
+        'A reusable decision-tree based chatbot designed as a floating support widget for websites. Built with Next.js and TypeScript, it enables guided conversational flows where users navigate predefined options instead of free-text queries, making it suitable for service navigation and customer support interfaces.',
+      tech: [
+        'Next.js',
+        'TypeScript',
+        'Tailwind CSS',
+        'React Hooks',
+        'Conversational UI'
+      ],
+      github: 'https://github.com/KomalGoel18/SmartAssist-Chatbot',
+    },
+    {
       title: 'NoteMark',
       description:
         'A full-stack note management platform with secure authentication, real-time CRUD operations, and a responsive modern UI. Built using Next.js App Router with MongoDB Atlas for scalable data handling and deployed on Vercel.',

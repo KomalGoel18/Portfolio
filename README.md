@@ -100,7 +100,7 @@ No environment variables are required for the default setup.
 
 ## About Me
 
-I'm a passionate AI/ML Engineer & Full-Stack Developer building scalable systems, modern web apps, and engaging user experiences.
+I'm a passionate Full-Stack Developer & AI/ML Engineer building scalable systems, modern web apps, and engaging user experiences.
 
 ## Connect With Me
 

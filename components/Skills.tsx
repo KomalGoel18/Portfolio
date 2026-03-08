@@ -2,75 +2,107 @@
 
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Code2, Server, Brain } from 'lucide-react';
+import {
+  Monitor,
+  MessageSquare,
+  Server,
+  Database,
+  Cloud,
+  Brain,
+  Terminal
+} from 'lucide-react';
 
 export default function Skills() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   const skillCategories = [
-    {
-      icon: Code2,
-      title: 'Frontend Development',
-      color: 'from-blue-500 to-blue-600',
-      skills: [
-        'HTML / CSS',
-        'JavaScript',
-        'React.js / Next.js',
-        'TypeScript',
-        'Tailwind CSS',
-        'ShadCN UI'
-      ]
-    },
-    {
-      icon: Code2,
-      title: 'Programming Languages',
-      color: 'from-emerald-500 to-emerald-600',
-      skills: ['C / C++', 'Java', 'Python', 'MATLAB', 'JavaScript']
-    },
-    {
-      icon: Server,
-      title: 'Backend Development',
-      color: 'from-purple-500 to-purple-600',
-      skills: [
-        'Node.js / Express.js',
-        'Flask',
-        'RESTful APIs',
-        'Next.js Server Actions',
-        'Authentication (NextAuth)',
-        'jQuery'
-      ]
-    },
-    {
-      icon: Server,
-      title: 'Databases & ORM',
-      color: 'from-indigo-500 to-indigo-600',
-      skills: ['MySQL', 'MongoDB', 'Prisma ORM']
-    },
-    {
-      icon: Server,
-      title: 'Cloud, Tools & Platforms',
-      color: 'from-orange-500 to-orange-600',
-      skills: [
-        'AWS',
-        'Vercel',
-        'Git / GitHub',
-        'Google Colab',
-        'VS Code'
-      ]
-    },
-    {
-      icon: Brain,
-      title: 'AI & Machine Learning',
-      color: 'from-cyan-500 to-cyan-600',
-      skills: [
-        'PyTorch',
-        'TensorFlow',
-        'Computer Vision',
-        'Natural Language Processing'
-      ]
-    }
-  ];
+  {
+    icon: Monitor,
+    title: 'Frontend Development',
+    color: 'from-blue-500 to-blue-600',
+    skills: [
+      'HTML / CSS',
+      'JavaScript',
+      'React.js',
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'ShadCN UI',
+      'Responsive UI Design',
+      'Component-based Architecture'
+    ]
+  },
+  {
+    icon: MessageSquare,
+    title: 'Chatbot & Conversational Systems',
+    color: 'from-pink-500 to-rose-600',
+    skills: [
+      'Chatbot Development',
+      'Conversational UI',
+      'Decision Tree Chatbots',
+      'Guided Interaction Flows',
+      'Custom React Hooks',
+      'TypeScript Type Systems',
+      'Reusable Component Design'
+    ]
+  },
+  {
+    icon: Server,
+    title: 'Backend Development',
+    color: 'from-purple-500 to-purple-600',
+    skills: [
+      'Node.js',
+      'Express.js',
+      'Flask',
+      'RESTful APIs',
+      'Next.js Server Actions',
+      'Authentication (NextAuth)'
+    ]
+  },
+  {
+    icon: Cloud,
+    title: 'Cloud, Tools & Platforms',
+    color: 'from-orange-500 to-orange-600',
+    skills: [
+      'Vercel',
+      'Git',
+      'GitHub',
+      'Google Colab',
+      'VS Code'
+    ]
+  },
+  {
+    icon: Brain,
+    title: 'AI & Machine Learning',
+    color: 'from-cyan-500 to-cyan-600',
+    skills: [
+      'PyTorch',
+      'TensorFlow',
+      'Computer Vision',
+      'Natural Language Processing'
+    ]
+  },
+  {
+    icon: Terminal,
+    title: 'Programming Languages',
+    color: 'from-emerald-500 to-emerald-600',
+    skills: [
+      'C / C++',
+      'JavaScript',
+      'TypeScript'
+    ]
+  },
+  {
+    icon: Database,
+    title: 'Databases',
+    color: 'from-indigo-500 to-indigo-600',
+    skills: [
+      'MySQL',
+      'MongoDB'
+    ]
+  }
+];
 
   return (
     <section id="skills" className="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 relative" ref={ref}>
