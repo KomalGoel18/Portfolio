@@ -10,30 +10,10 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'SmartAssist Chatbot',
-      description:
-        'A reusable decision-tree based chatbot designed as a floating support widget for websites. Built with Next.js and TypeScript, it enables guided conversational flows where users navigate predefined options instead of free-text queries, making it suitable for service navigation and customer support interfaces.',
-      tech: [
-        'Next.js',
-        'TypeScript',
-        'Tailwind CSS',
-        'React Hooks',
-        'Conversational UI'
-      ],
-      github: 'https://github.com/KomalGoel18/SmartAssist-Chatbot',
-    },
-    {
       title: 'NoteMark',
       description:
         'A full-stack note management platform with secure authentication, real-time CRUD operations, and a responsive modern UI. Built using Next.js App Router with MongoDB Atlas for scalable data handling and deployed on Vercel.',
-      tech: [
-        'Next.js',
-        'TypeScript',
-        'MongoDB Atlas',
-        'NextAuth',
-        'Tailwind CSS',
-        'Vercel',
-      ],
+      tech: ['Next.js', 'TypeScript', 'MongoDB Atlas', 'NextAuth', 'Tailwind CSS', 'Vercel'],
       github: 'https://github.com/KomalGoel18/NoteMark',
       live: 'https://notemark-hub.vercel.app/',
     },
@@ -48,9 +28,10 @@ export default function Projects() {
     {
       title: 'SolveOn',
       description:
-        'An interactive platform to practice coding and logical reasoning through structured problems with a clean and responsive UI.',
-      tech: ['HTML', 'CSS', 'JavaScript'],
+        'A full-stack coding practice platform, featuring real-time code execution, problem solving, user authentication, leaderboard, and public profiles. Built with a scalable architecture and modern UI for an engaging developer experience.',
+      tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Judge0 API'],
       github: 'https://github.com/KomalGoel18/SolveOn',
+      live: 'https://solve-on.vercel.app/',
     },
     {
       title: 'Stock Price Prediction',
